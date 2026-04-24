@@ -19,4 +19,4 @@ jobs:
       - name: Push mirror to GitLab
         run: |
           git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/miksea/test-app.git
-          git push gitlab --mirror --force
+          git push gitlab --all --force
