@@ -1,5 +1,5 @@
 # .github/workflows/mirror-to-gitlab.yml
-name: Mirror to GitLab
+name: Mirror to GitLab next gen 2
 
 on:
   push:
